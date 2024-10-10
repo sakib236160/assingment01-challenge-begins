@@ -176,3 +176,53 @@ nav ul li{
     border-radius: 16px;
     max-width: 900px;
 }
+/*-------------- current target section ---------------*/
+.current-target{
+    margin: auto 200px;
+}
+.section-title{
+    text-align: center;
+    color: rgb(13, 19, 33);
+    font-size: 26px;
+    font-weight: 800;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+.section-description{
+    text-align: center;
+    margin: 10px 90px;
+    color: rgb(13, 19, 33);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 30px;
+}
+.current-target-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.current-target1{
+    padding: 40px;
+}
+.current-target-title{
+    color: rgb(13, 19, 33);
+    font-size: 17px;
+    font-weight: 800;
+    line-height: 30px;
+    margin-top: 20px;
+}
+.current-target-description{
+    color: rgb(13, 19, 33);
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    opacity: 0.7;
+    margin-bottom: 20px;
+}
+.ankor{
+    color: rgb(13, 19, 33);
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 19px;
+}
