@@ -74,9 +74,9 @@ nav ul li{
     cursor: pointer;
 }
 /* ------------------ development style-----------------*/
-.development{
+/* .development{
 
-}
+} */
 .development-container{
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
@@ -204,6 +204,18 @@ nav ul li{
 }
 .current-target1{
     padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+.current-target2{
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+.current-target3{
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
 }
 .current-target-title{
     color: rgb(13, 19, 33);
@@ -226,3 +238,77 @@ nav ul li{
     font-weight: 700;
     line-height: 19px;
 }
+/*---------------- support ------------*/
+.support-container{
+    height: 213px;
+    margin: 38px 200px;
+    padding: 38px 50px;
+    background-image:url("../assets/handshake.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    text-align: center;
+    align-items: center;
+    border-radius: 16px;
+}
+.support-text{
+    margin: auto 100px;
+    padding: 40px 60px;
+}
+.support-head-text{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+}
+.support-description{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+}
+ .input-text{
+    width: 60%;
+    height: 40px;
+    color: rgba(13, 19, 33, 0.4);
+    font-family: Azeret Mono;
+    font-size: 10px;
+    font-weight: 400;
+    padding: 15px;
+    text-align: left;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+ }
+ .input-btn{
+    width: 10%;
+    height: 40px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 12px;
+    font-weight: bold;
+    padding-bottom: 2px; 
+    text-align: center;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+ }
+ /* -------footer -----------*/
+ .footer{
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+ }
+ .footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto 160px;
+    padding: 40px;
+ }
