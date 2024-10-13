@@ -12,7 +12,8 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 50px 100px;
+    max-width: 1140px; 
+    margin: 30px auto; 
 }
 .nav-title{
     color: rgb(13, 19, 33);
@@ -46,9 +47,6 @@ nav ul li{
     text-align: center;
     padding: 26px 300px;
 }
-.banner-img{
-    margin-bottom: 32px;
-}
 .banner-title1{
     color: rgb(13, 19, 33);
     font-size: 35px;
@@ -75,51 +73,73 @@ nav ul li{
     cursor: pointer;
 }
 /* ------------------ development style-----------------*/
-/* .development{
-
-} */
 .development-container{
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
-    margin: 10px 200px;
+    /* background: rgba(56, 103, 214, 0.932); */
+    padding-top: 20px;
+    max-width: 1140px; 
+    margin: 30px auto; 
 }
-.development-title{
+.development-title, .inspiration-text, .current-target-text, .next-target-text{
     text-align: center;
-    margin: 100px;
-    /* padding: 10px 80px; */
+    max-width: 852px; 
+    margin: 30px auto; 
 }
-.development-head-title{
+.development-head-title, .inspiration-text1, .section-title{
     color: rgb(13, 19, 33);
     font-size: 26px;
     font-weight: 800;
     margin-bottom: 18px;
+    max-width: 852px; 
+
 }
-.development-description, .inspiration-description{
+.development-description, .inspiration-description, .section-description{
     color: rgb(13, 19, 33);
     font-size: 12px;
     font-weight: 400;
     line-height: 26px;
     margin-bottom: 8px;
     opacity: 0.7;
+    max-width: 852px; 
 }
 /*------------------Learn more style  ---------------*/
-.learn-more{
+.learn-more, .learn-more2{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    margin: 60px;
-    gap: 140px;
     border-radius: 16px;
     background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
-    padding: 5px 40px;
+    max-width: 946px; 
+    margin: 0 auto; 
+    margin-bottom: 30px;
+}
+.learn-more-text{
+    max-width: 477px;
+    margin: 0 auto;
+}
+.learn-more-text-container{
+    max-width: 850px; 
+    margin: 35px auto; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+.learn-more-text-container2{
+    max-width: 850px; 
+    margin: 35px auto; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
 }
 .learn-more-head-text, .learn-more-head-text2{
-    max-width: 200px;
     color: rgba(13, 19, 33, 0.7);
     font-size: 15px;
     font-weight: 700;
     line-height: 25px;
-    margin-bottom: 12px;
+    margin-bottom: 15px;
 }
 .learn-more-head-description, .learn-more-head-description2{
     color: rgb(13, 19, 33);
@@ -138,87 +158,40 @@ nav ul li{
     border: 1px solid rgb(13, 19, 33);
     opacity: 0.7;
 }
-.learn-more2{
-    display:flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 60px;
-    gap: 10px;
-    border-radius: 16px;
-    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
-    padding: 5px 40px;
-}
 /* -------------inspiration  style -----------*/
 .inspiration-container{
+    max-width: 1140px; 
+    margin: 30px auto; 
     text-align: center;
-    margin: 10px 200px;
-}
-.inspiration-text{
-    max-width: 700px;
-    margin: auto 107px;
-}
-.inspiration-text1{
-    text-align: center;
-    color: rgb(13, 19, 33);
-    font-size: 26px;
-    font-weight: 800;
-    margin-bottom: 18px;
-}
-.inspiration-description{
-    margin-bottom: 40px;
 }
 .video-container{
-    padding-top: 12px;
-    padding-bottom: 10px;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-top: 27px;
+    padding-bottom: 25px;
     box-sizing: border-box;
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
 }
+.video-container iframe{
+    max-width: 1076px;
+} 
 .video-border{
     border-radius: 16px;
-    max-width: 900px;
 }
 /*-------------- current target section ---------------*/
-.current-target, .next-target{
-    margin: auto 200px;
-}
-.section-title{
-    text-align: center;
-    color: rgb(13, 19, 33);
-    font-size: 26px;
-    font-weight: 800;
-    margin-top: 100px;
-    margin-bottom: 20px;
-}
-.section-description{
-    text-align: center;
-    margin: 10px 90px;
-    color: rgb(13, 19, 33);
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 26px;
-    margin-bottom: 30px;
-    opacity: 0.7;
+.current-target{
+    max-width: 1140px;
+    margin: 0 auto;
+    border-radius: 16px;
 }
 .current-target-container{
     display: flex;
     justify-content: space-between;
     gap: 20px;
 }
-.current-target1{
-    padding: 40px;
-    border-radius: 16px;
-    background: rgba(255, 76, 30, 0.05);
-}
-.current-target2{
-    padding: 40px;
-    border-radius: 16px;
-    background: rgba(0, 76, 232, 0.05);
-}
-.current-target3{
-    padding: 40px;
-    border-radius: 16px;
-    background: rgba(255, 223, 0, 0.05);
+.current-target-card{
+    padding: 35px;
 }
 .current-target-title, .next-target-title{
     color: rgb(13, 19, 33);
@@ -242,9 +215,14 @@ nav ul li{
     line-height: 19px;
 }
 /* ----------next target style ------------*/
+.next-target{
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
 .next-target-container{
     display: flex;
-    gap: 10px;
+    gap: 15px;
     padding: 30px;
     box-sizing: border-box;
     border: 1px solid rgba(13, 19, 33, 0.15);
@@ -254,10 +232,10 @@ nav ul li{
 }
 /*---------------- support ------------*/
 .support-container{
-    height: 213px;
-    margin: 38px 200px;
-    padding: 38px 50px;
-    background-image:url("../assets/handshake.jpg");
+    max-width: 1140px;
+    margin: 30px auto;
+    height: 313px;
+    background:linear-gradient( rgba(10, 10, 10, 0.74),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)),url("../assets/handshake.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
@@ -265,9 +243,10 @@ nav ul li{
     align-items: center;
     border-radius: 16px;
 }
-.support-text{
-    margin: auto 100px;
-    padding: 40px 60px;
+.form-common-container{
+    max-width: 730px;
+    margin: 0 auto;
+    padding: 64px 48px;
 }
 .support-head-text{
     color: rgb(255, 255, 255);
@@ -285,6 +264,7 @@ nav ul li{
     letter-spacing: 0%;
     text-align: center;
     opacity: 0.7;
+    margin-bottom: 24px;
 }
  .input-text{
     width: 60%;
@@ -320,11 +300,12 @@ nav ul li{
     background: rgba(13, 19, 33, 0.03);
  }
  .footer-container{
+    max-width: 1140px;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: auto 160px;
-    padding: 40px;
+    padding: 30px 0;
  }
  .footer-description{
     color: rgb(13, 19, 33);
